@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title align="center">Agendamento</title>
+</head>
+    <body style="margin: 0; background-color: #caebff;">
+<header>
+<table width="100%" bgcolor="#e7f0b7">
+    <tr>
+        <td align="center" style="padding: 10px;">
+            <h1>AGENDAMENTO</h1>
+        </td>
+    </tr>
+</table>
+</header>
+<table width="100%">
+    <form>
+        <label for="nome">Nome Paciente:</label><br>
+        <input type="text" id="nome" name="nome"><br><br>
+        <label for="email">Email Responsável:</label><br>
+        <input type="email" id="email" name="email"><br><br>
+        <label for="number">Número de Telefone:</label><br>
+        <input type="tel" id="numero" name="numero"><br><br>
+        <p align="justify">Idade do Paciente:</p>
+        <input type="number" id="idade" name="idade" min="3" max="18" placeholder="Idade do paciente"><br><br>
+        <p align="justify">Tipo de Atendimento:</p>
+        <input type="radio" id="presencial" name="tipo" value="presencial">
+        <label for="presencial">Presencial</label><br>
+        <input type="radio" id="online" name="tipo" value="online">
+        <label for="online">Online</label><br>
+        <label for="data">Data do Agendamento:</label><br>
+        <input type="date" id="data" name="data"><br><br>
+        <input type="submit" value="Agendar">
+    </form>
+</table>
+</body>
+</html>
